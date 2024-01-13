@@ -1,3 +1,5 @@
+--Fracking Technology
+
 data:extend(
     {
         {
@@ -14,7 +16,7 @@ data:extend(
                 },
                 {
                     type = 'unlock-recipe',
-                    recipe = 'fracking-pumpjack'
+                    recipe = 'fracking-drill'
                 }
             },
             unit = 

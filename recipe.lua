@@ -1,19 +1,6 @@
-data:extend(
-    {
-    
-        {   --Copy & Pasted from lubricant, then modified.
-            type = "fluid",
-            name = "fracking-sludge",
-            default_temperature = 25,
-            heat_capacity = "0.1KJ",
-            base_color = {r=0.22, g=0.77, b=0.66},
-            flow_color = {r=0.29, g=0.65, b=0.39},
-            icon = "__oil-fracking__/graphics/fracking-sludge.png",
-            icon_size = 64, icon_mipmaps = 4,
-            order = "e[fracking-sludge]"
-        }
-    }
-)
+--data.lua
+
+-- Fracking sludge recipe
 data:extend(
     {
         {   -- For fluid recipes you must use the "full" name convention in the ingredients and result. 
@@ -37,4 +24,25 @@ data:extend(
             
         }
     }
+)
+
+-- Fracking drill recipe
+data:extend(
+    {
+        {
+            type = 'recipe',
+            name = 'fracking-drill',
+            energy_required = 20,
+            ingredients = 
+            {
+                {"steel-plate", 50},
+                {"iron-gear-wheel", 20},
+                {"advanced-circuit", 15},
+                {"pipe-to-ground", 5}
+            },
+            result = 'fracking-drill',
+            enabled = false
+        }
+    }
+    
 )
