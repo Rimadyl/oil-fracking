@@ -1,4 +1,4 @@
---data.lua
+--recipe.lua
 
 -- Fracking sludge recipe
 data:extend(
@@ -41,8 +41,36 @@ data:extend(
                 {"pipe-to-ground", 5}
             },
             result = 'fracking-drill',
-            enabled = false
+            enabled = false,
+            icon = '__oil-fracking__/graphics/fracking-drill.png',
+            icon_size = 64, icon_mipmaps = 4
         }
     }
     
+)
+
+-- Shale -> Oil recipe
+data:extend(
+    {
+        {
+            type = 'recipe',
+            name = 'shale-oil',
+            category = 'oil-processing',
+            subgroup = 'fluid-recipes',
+            energy_required = 5,
+            enabled = false,
+            icon = '__oil-fracking__/graphics/shale-oil.png',
+            icon_size = 64, icon_mipmaps = 4,
+            ingredients =
+            {
+                {type = 'item' , name = 'oil-shale',  amount = 5},
+                {type = 'fluid', name = 'crude-oil' , amount = 5}
+            },
+            results =
+            {
+                {type = 'fluid', name = 'crude-oil' , amount = 25},
+                {type = 'item' , name = 'coal'      , amount = 2}
+            },
+        }
+    }
 )

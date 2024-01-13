@@ -17,6 +17,10 @@ data:extend(
                 {
                     type = 'unlock-recipe',
                     recipe = 'fracking-drill'
+                },
+                {
+                    type = 'unlock-recipe',
+                    recipe = 'shale-oil'
                 }
             },
             unit = 
