@@ -9,3 +9,4 @@ TODO:
 - Finish graphics, as they are very simple and just bug standard ms.paint. Technology graphic is broken in game.
 - Finish oil shale generation data, it is too big, and too much
 - Remove larger oil patches? Keep them rare, for balance.
+- Make the 'fracking-drill' specific to shale.
