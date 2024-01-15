@@ -65,7 +65,6 @@ data:extend({
     {
         type = "autoplace-control",
         name = "oil-shale",
-        localised_name = {"", "[entity=oil-shale] ", {"entity-name.oil-shale"}},
         richness = true,
         order = "b-g",
         category = "resource"
