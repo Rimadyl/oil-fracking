@@ -1,4 +1,26 @@
 --recipe.lua
+-- Fracking pumpjack recipe
+data:extend(
+    {
+        {
+            type = 'recipe',
+            name = 'fracking-pumpjack',
+            energy_required = 20,
+            ingredients = 
+            {
+                {"steel-plate", 50},
+                {"iron-gear-wheel", 20},
+                {"advanced-circuit", 15},
+                {"pipe-to-ground", 5}
+            },
+            result = 'fracking-pumpjack',
+            enabled = false,
+            icon = '__oil-fracking__/graphics/fracking-drill.png',
+            icon_size = 64, icon_mipmaps = 4
+        }
+    }
+    
+)
 
 -- Fracking sludge recipe
 data:extend(

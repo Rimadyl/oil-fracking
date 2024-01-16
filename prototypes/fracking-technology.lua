@@ -20,6 +20,10 @@ data:extend(
                 },
                 {
                     type = 'unlock-recipe',
+                    recipe = 'fracking-pumpjack'
+                },
+                {
+                    type = 'unlock-recipe',
                     recipe = 'shale-oil'
                 }
             },
