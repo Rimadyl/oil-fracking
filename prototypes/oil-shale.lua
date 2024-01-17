@@ -56,7 +56,9 @@ data:extend(
                   scale = 0.5
                 }
               }
-            }
+            },
+            map_color = {0.78, 0.2, 0.77},
+            map_grid = false
         }    
     }
 )
@@ -74,6 +76,6 @@ data:extend({
 data:extend({
     {
         type = "noise-layer",
-        name = ' oil-shale',
+        name = 'oil-shale',
     }
 })

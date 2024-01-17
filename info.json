@@ -1,9 +1,9 @@
 {
     "name": "oil-fracking",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "title": "Oil Fracking",
     "author": "BigSlime",
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
-    "description": "Use a special mixture to enjoy more oil out of your wells, at the cost of irreversible enviornmental damage!."
+    "description": "Use a special mixture to enjoy more oil out of your wells, or mine solid shale from the ground! Be warned of enviornmental damage though..."
 }
