@@ -4,17 +4,13 @@ require ("__base__.prototypes.entity.pipecovers")
 local fracking_pumpjack = table.deepcopy(data.raw['mining-drill']['electric-mining-drill'])
 
 fracking_pumpjack.name = 'fracking-pumpjack'
-fracking_pumpjack.resource_categories = {'basic-fluid'}
+fracking_pumpjack.resource_categories = {'fracking-crack'}
 fracking_pumpjack.minable = {mining_time = 0.3, result = 'fracking-pumpjack'}
 
--- fracking_pumpjack.input_fluid_box.pipe_connections = 
--- {
---   {
---     { position = {-2, 0} },
---     { position = {2, 0} },
---     { position = {0, 2} }
---   }
--- }
+fracking_pumpjack.input_fluid_box.pipe_connections = 
+{
+  { position = {-2, 0} }
+}
 
 fracking_pumpjack.output_fluid_box = 
 {

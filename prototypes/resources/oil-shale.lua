@@ -1,5 +1,5 @@
 local sounds = require("__base__.prototypes.entity.sounds")
-local resource_autoplace = require("resource-autoplace")
+local resource_autoplace = require("__core__/lualib/resource-autoplace")
 data:extend(
     {
         {

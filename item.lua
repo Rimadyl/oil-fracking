@@ -1,10 +1,11 @@
 --item.lua
--- Fracked oil
+
+-- frack-oil
 data:extend(
     {
         {
             type = 'fluid',
-            name = 'fracked-oil',
+            name = 'frack-oil',
             default_temperature = 25,
             heat_capacity = "0.1KJ",
             base_color = {r=0.22, g=0.77, b=0.66},
