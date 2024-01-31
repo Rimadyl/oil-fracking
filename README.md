@@ -1,5 +1,5 @@
 V_0.0.2
-
+-unreleased
 Creates an alternative method to gathering oil, via fracking! The solid shale is retrieved via a more complex method, but you are rewarded wth much more (and much more portable) oil! Watch for pollution though...
 
 TODO:
